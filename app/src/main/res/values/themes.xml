@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.RedeHoteleira" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black </item>
+        <item name="android:datePickerDialogTheme">@style/MyDatePickerTheme </item>
+    </style>
+    <style name="MyDatePickerTheme" parent="android:Theme.Material.Dialog.Alert">
+        <item name="android:colorAccent">@color/white</item>
+        <item name="android:colorPrimary">@color/black</item>
+        <item name="android:colorActivatedHighlight">@color/white</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="android:colorFocusedHighlight">@color/white</item>
+        <item name="android:colorSecondary">@color/white</item>
+    </style>
+</resources>
